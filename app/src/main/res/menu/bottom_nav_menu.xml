@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_bangun_datar"
+        android:icon="@drawable/belahketupat"
+        android:title="@string/bangun_datar" />
+
+
+    <item
+        android:id="@+id/navigation_bangun_ruang"
+        android:icon="@drawable/tabung"
+        android:title="@string/bangun_ruang" />
+
+</menu>

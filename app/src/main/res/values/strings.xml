@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Bangun Datar &amp; Bangun Ruang</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="bangun_datar">Bangun Datar</string>
+    <string name="bangun_ruang">Bangun Ruang</string>
+    <string name="keliling">Keliling:</string>
+    <string name="luas">Luas:</string>
+    <string name="volume">Volume:</string>
+
+<!--    Bangun Datar-->
+    <string name="rumus_persegi">Keliling = 4 x s \nLuas = s x s</string>
+    <string name="rumus_persegipanjang">Keliling = 2 x (P + L) \nLuas = P x L</string>
+    <string name="rumus_jajargenjang">Keliling = 2 x ( a+b ) \nLuas = a x t</string>
+    <string name="rumus_trapesium">Keliling = a + b + 2c \nLuas = (a + b) x t / 2</string> <!--TODO Tambahkan rumus untuk trapesium, saat ini hanya ada untuk trapesium sama sisi-->
+    <string name="rumus_layang_layang">Keliling = 2 x (a + b) \nLuas = d1 x d2 / 2</string>
+    <string name="rumus_segitiga">Keliling = a + b + c \nLuas = a x t / 2</string>
+    <string name="rumus_belah_ketupat">Keliling = 4 x s \nLuas = d1 x d2 / 2</string>
+    <string name="rumus_lingkaran">Keliling = 2 x π x r \nLuas =  π x r² </string>
+    <string name="ket_persegi">Persegi adalah suatu segi empat dengan semua sisinya sama panjang dan semua sudut-sudutnya sama besar dan siku-siku</string>
+    <string name="ket_persegipanjang">Persegi panjang adalah bangun datar yang memiliki 2 sisi panjang dan 2 sisi lebar yang dimana sudut-sudutnya berbentuk siku-siku</string>
+    <string name="ket_jajargenjang">Jajargenjang adalah bangun datar yang memiliki sepasang sisi yang sejajar namun tidak memiliki sudut siku-siku.</string>
+    <string name="ket_trapesium">Trapesium adalah bangun datar yang memiliki bentuk bervariasi. Pada gambar di atas, trapesium tersebut merupakan <b>trapesium sama kaki</b>, dimana trapesium tersebut memiliki 2 sisi yang sejajar</string>
+    <string name="ket_layang_layang">Layang-layang adalah bangun datar yang berupa segiempat, yang mempunyai 2 pasang sisi yang berdekatan sama panjang dan kedua diagonal berpotongan tegak lurus</string>
+    <string name="ket_segitiga">Segitiga yaitu sebuah bangun datar yang dibatasi oleh 3 buah sisi dan mempunyai 3 buah titik sudut.</string>
+<!--    Bangun Ruang-->
+    <string name="rumus_balok">Luas = 2 x (P x L + P x T + L x T) \nVolume = P x L x T</string>
+    <string name="rumus_kubus">Luas = 6 x s² \nVolume = S³</string>
+    <string name="rumus_tabung">Luas = 2 x π x r x (r + t) \nVolume = π x r² x t</string>
+    <string name="rumus_prisma">Luas = (2 x luas alas) + (keliling alas x tinggi Prisma) \nAtau = (a x b) + ((a + 2 x c) x t) \nVolume = Luas segitiga x tinggi \nAtau = a x b x t / 2</string>
+    <string name="rumus_kerucut">Luas = Luas Alas + Luas Selimut \nAtau = π x r² + π x r x s \nVolume = Luas Alas x Tinggi / 3 \nAtau = π x r² x t / 3</string>
+    <string name="rumus_limas">Luas = Luas Alas + Luas Jumlah Segitiga \nAtau = s² + (2 x s x (√((s/2)² + (t)²) \nVolume = s² x t / 3</string>
+    <string name="rumus_bola">Luas = 4 x π x r² \nVolume = 4/3 x π x r³</string>
+</resources>
