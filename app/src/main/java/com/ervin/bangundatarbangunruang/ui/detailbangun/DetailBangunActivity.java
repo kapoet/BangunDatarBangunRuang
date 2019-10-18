@@ -132,8 +132,9 @@ public class DetailBangunActivity extends AppCompatActivity {
     }
 
     public void persegiPanjang() {
+        tvKeterangn.setText(getString(R.string.ket_persegipanjang));
         tvRumus.setText(getString(R.string.rumus_persegipanjang));
-        InputDynamicUtil.dynamicInput(this, llInput, 2, new String[]{"Masukan P", "Masukan L"}, new InputDynamicUtil.SetCallback() {
+        InputDynamicUtil.dynamicInput(this, llInput, 2, new String[]{"Masukan P (Panjang)", "Masukan L (Lebar)"}, new InputDynamicUtil.SetCallback() {
             @Override
             public void handlerInput(ArrayList<EditText> etList) {
                 double p = Helper.parseDoubleOrNull(etList.get(0).getText().toString());
@@ -148,8 +149,9 @@ public class DetailBangunActivity extends AppCompatActivity {
     }
 
     public void persegi() {
+        tvKeterangn.setText(getString(R.string.ket_persegi));
         tvRumus.setText(getString(R.string.rumus_persegi));
-        InputDynamicUtil.dynamicInput(this, llInput, 1, new String[]{"Masukan S"}, new InputDynamicUtil.SetCallback() {
+        InputDynamicUtil.dynamicInput(this, llInput, 1, new String[]{"Masukan S (Sisi)"}, new InputDynamicUtil.SetCallback() {
             @Override
             public void handlerInput(ArrayList<EditText> etList) {
                 double s = Helper.parseDoubleOrNull(etList.get(0).getText().toString());
@@ -163,8 +165,9 @@ public class DetailBangunActivity extends AppCompatActivity {
     }
 
     public void layangLayang() {
+        tvKeterangn.setText(getString(R.string.ket_layang_layang));
         tvRumus.setText(getString(R.string.rumus_layang_layang));
-        InputDynamicUtil.dynamicInput(this, llInput, 4, new String[]{"Masukan a", "Masukan b", "Masukan d1", "Masukan d2"}, new InputDynamicUtil.SetCallback() {
+        InputDynamicUtil.dynamicInput(this, llInput, 4, new String[]{"Masukan a", "Masukan b", "Masukan d1 (Diagonal 1)", "Masukan d2 (Diagonal 2)"}, new InputDynamicUtil.SetCallback() {
             @Override
             public void handlerInput(ArrayList<EditText> etList) {
                 double a = Helper.parseDoubleOrNull(etList.get(0).getText().toString());
@@ -181,8 +184,9 @@ public class DetailBangunActivity extends AppCompatActivity {
     }
 
     public void belahKetupat() {
+        tvKeterangn.setText(getString(R.string.ket_belah_ketupat));
         tvRumus.setText(getString(R.string.rumus_belah_ketupat));
-        InputDynamicUtil.dynamicInput(this, llInput, 3, new String[]{"Masukan S", "Masukan d1", "Masukan d2"}, new InputDynamicUtil.SetCallback() {
+        InputDynamicUtil.dynamicInput(this, llInput, 3, new String[]{"Masukan S (Sisi)",  "Masukan d1 (Diagonal 1)", "Masukan d2 (Diagonal 2)"}, new InputDynamicUtil.SetCallback() {
             @Override
             public void handlerInput(ArrayList<EditText> etList) {
                 double s = Helper.parseDoubleOrNull(etList.get(0).getText().toString());
@@ -198,8 +202,9 @@ public class DetailBangunActivity extends AppCompatActivity {
     }
 
     public void segitiga() {
+        tvKeterangn.setText(getString(R.string.ket_segitiga));
         tvRumus.setText(getString(R.string.rumus_segitiga));
-        InputDynamicUtil.dynamicInput(this, llInput, 4, new String[]{"Masukan a", "Masukan b", "Masukan c", "Masukan t"}, new InputDynamicUtil.SetCallback() {
+        InputDynamicUtil.dynamicInput(this, llInput, 4, new String[]{"Masukan a (Alas)", "Masukan b", "Masukan c", "Masukan t (Tinggi)"}, new InputDynamicUtil.SetCallback() {
             @Override
             public void handlerInput(ArrayList<EditText> etList) {
                 double a = Helper.parseDoubleOrNull(etList.get(0).getText().toString());
@@ -216,8 +221,9 @@ public class DetailBangunActivity extends AppCompatActivity {
     }
 
     public void lingkaran() {
+        tvKeterangn.setText(getString(R.string.ket_lingkaran));
         tvRumus.setText(getString(R.string.rumus_lingkaran));
-        InputDynamicUtil.dynamicInput(this, llInput, 1, new String[]{"Masukan r"}, new InputDynamicUtil.SetCallback() {
+        InputDynamicUtil.dynamicInput(this, llInput, 1, new String[]{"Masukan r (Jari-jari)"}, new InputDynamicUtil.SetCallback() {
             @Override
             public void handlerInput(ArrayList<EditText> etList) {
                 double r = Helper.parseDoubleOrNull(etList.get(0).getText().toString());
@@ -231,8 +237,9 @@ public class DetailBangunActivity extends AppCompatActivity {
     }
 
     public void jajargenjang() {
+        tvKeterangn.setText(getString(R.string.ket_jajargenjang));
         tvRumus.setText(getString(R.string.rumus_jajargenjang));
-        InputDynamicUtil.dynamicInput(this, llInput, 3, new String[]{"Masukan a", "Masukan b", "Masukan t"}, new InputDynamicUtil.SetCallback() {
+        InputDynamicUtil.dynamicInput(this, llInput, 3, new String[]{"Masukan a", "Masukan b", "Masukan t (Tinggi)"}, new InputDynamicUtil.SetCallback() {
             @Override
             public void handlerInput(ArrayList<EditText> etList) {
                 double a = Helper.parseDoubleOrNull(etList.get(0).getText().toString());
@@ -248,8 +255,9 @@ public class DetailBangunActivity extends AppCompatActivity {
     }
 
     public void trapesium() {
+        tvKeterangn.setText(getString(R.string.ket_trapesium));
         tvRumus.setText(getString(R.string.rumus_trapesium));
-        InputDynamicUtil.dynamicInput(this, llInput, 4, new String[]{"Masukan a", "Masukan b", "Masukan c", "Masukan t"}, new InputDynamicUtil.SetCallback() {
+        InputDynamicUtil.dynamicInput(this, llInput, 4, new String[]{"Masukan a", "Masukan b", "Masukan c (Sisi Miring)", "Masukan t (Tinggi)"}, new InputDynamicUtil.SetCallback() {
             @Override
             public void handlerInput(ArrayList<EditText> etList) {
                 double a = Helper.parseDoubleOrNull(etList.get(0).getText().toString());
@@ -266,8 +274,9 @@ public class DetailBangunActivity extends AppCompatActivity {
     }
 
     public void balok() {
+        tvKeterangn.setText(getString(R.string.ket_balok));
         tvRumus.setText(getText(R.string.rumus_balok));
-        InputDynamicUtil.dynamicInput(this, llInput, 3, new String[]{"Masukan p", "Masukan l", "Masukan t"}, new InputDynamicUtil.SetCallback() {
+        InputDynamicUtil.dynamicInput(this, llInput, 3, new String[]{"Masukan p (Panjang)", "Masukan l (Lebar)", "Masukan t (Tinggi)"}, new InputDynamicUtil.SetCallback() {
             @Override
             public void handlerInput(ArrayList<EditText> etList) {
                 double p = Helper.parseDoubleOrNull(etList.get(0).getText().toString());
@@ -283,8 +292,9 @@ public class DetailBangunActivity extends AppCompatActivity {
     }
 
     public void kubus() {
+        tvKeterangn.setText(getString(R.string.ket_kubus));
         tvRumus.setText(getText(R.string.rumus_kubus));
-        InputDynamicUtil.dynamicInput(this, llInput, 1, new String[]{"Masukan s"}, new InputDynamicUtil.SetCallback() {
+        InputDynamicUtil.dynamicInput(this, llInput, 1, new String[]{"Masukan s (Sisi)"}, new InputDynamicUtil.SetCallback() {
             @Override
             public void handlerInput(ArrayList<EditText> etList) {
                 double s = Helper.parseDoubleOrNull(etList.get(0).getText().toString());
@@ -298,8 +308,9 @@ public class DetailBangunActivity extends AppCompatActivity {
     }
 
     public void kerucut() {
+        tvKeterangn.setText(getString(R.string.ket_kerucut));
         tvRumus.setText(getText(R.string.rumus_kerucut));
-        InputDynamicUtil.dynamicInput(this, llInput, 3, new String[]{"Masukan s", "Masukan r", "Masukan t"}, new InputDynamicUtil.SetCallback() {
+        InputDynamicUtil.dynamicInput(this, llInput, 3, new String[]{"Masukan s", "Masukan r (Jari-jari)", "Masukan t (Tinggi)"}, new InputDynamicUtil.SetCallback() {
             @Override
             public void handlerInput(ArrayList<EditText> etList) {
                 double s = Helper.parseDoubleOrNull(etList.get(0).getText().toString());
@@ -315,8 +326,9 @@ public class DetailBangunActivity extends AppCompatActivity {
     }
 
     public void bola() {
+        tvKeterangn.setText(getString(R.string.ket_bola));
         tvRumus.setText(getText(R.string.rumus_bola));
-        InputDynamicUtil.dynamicInput(this, llInput, 1, new String[]{"Masukan r"}, new InputDynamicUtil.SetCallback() {
+        InputDynamicUtil.dynamicInput(this, llInput, 1, new String[]{"Masukan r (Jari-jari)"}, new InputDynamicUtil.SetCallback() {
             @Override
             public void handlerInput(ArrayList<EditText> etList) {
                 double r = Helper.parseDoubleOrNull(etList.get(0).getText().toString());
@@ -330,8 +342,9 @@ public class DetailBangunActivity extends AppCompatActivity {
     }
 
     public void limas() {
+        tvKeterangn.setText(getString(R.string.ket_limas));
         tvRumus.setText(getText(R.string.rumus_limas));
-        InputDynamicUtil.dynamicInput(this, llInput, 2, new String[]{"Masukan s", "Masukan t"}, new InputDynamicUtil.SetCallback() {
+        InputDynamicUtil.dynamicInput(this, llInput, 2, new String[]{"Masukan s (Sisi)", "Masukan t (Tinggi)"}, new InputDynamicUtil.SetCallback() {
             @Override
             public void handlerInput(ArrayList<EditText> etList) {
                 double s = Helper.parseDoubleOrNull(etList.get(0).getText().toString());
@@ -346,8 +359,9 @@ public class DetailBangunActivity extends AppCompatActivity {
     }
 
     public void prisma() {
+        tvKeterangn.setText(getString(R.string.ket_prisma));
         tvRumus.setText(getText(R.string.rumus_prisma));
-        InputDynamicUtil.dynamicInput(this, llInput, 4, new String[]{"Masukan a", "Masukan b", "Masukan c", "Masukan t"}, new InputDynamicUtil.SetCallback() {
+        InputDynamicUtil.dynamicInput(this, llInput, 4, new String[]{"Masukan a (Alas segitiga)", "Masukan b (Tinggi segitiga)", "Masukan c (Sisi miring)", "Masukan t (Tinggi Limas)"}, new InputDynamicUtil.SetCallback() {
             @Override
             public void handlerInput(ArrayList<EditText> etList) {
                 double a = Helper.parseDoubleOrNull(etList.get(0).getText().toString());
@@ -364,8 +378,9 @@ public class DetailBangunActivity extends AppCompatActivity {
     }
 
     public void tabung() {
+        tvKeterangn.setText(getString(R.string.ket_tabung));
         tvRumus.setText(getText(R.string.rumus_tabung));
-        InputDynamicUtil.dynamicInput(this, llInput, 2, new String[]{"Masukan r", "Masukan t"}, new InputDynamicUtil.SetCallback() {
+        InputDynamicUtil.dynamicInput(this, llInput, 2, new String[]{"Masukan r (Jari-jari)", "Masukan t (Tinggi)"}, new InputDynamicUtil.SetCallback() {
             @Override
             public void handlerInput(ArrayList<EditText> etList) {
                 double r = Helper.parseDoubleOrNull(etList.get(0).getText().toString());

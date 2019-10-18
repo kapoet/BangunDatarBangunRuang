@@ -57,7 +57,7 @@
                     android:layout_weight="0.5"
                     android:fontFamily="serif"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                    tools:text="TextView" />
+                    android:text="0" />
             </LinearLayout>
 
             <LinearLayout
@@ -86,7 +86,7 @@
                     android:layout_weight="1"
                     android:fontFamily="serif"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                    tools:text="TextView" />
+                    android:text="0" />
             </LinearLayout>
 
             <LinearLayout
@@ -113,7 +113,7 @@
                     android:layout_weight="1"
                     android:fontFamily="serif"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                    tools:text="TextView" />
+                    android:text="0" />
             </LinearLayout>
         </LinearLayout>
 
@@ -138,6 +138,7 @@
                 android:id="@+id/tv_keterangan_detail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:layout_weight="0.5"
                 android:text="TextView" />
 

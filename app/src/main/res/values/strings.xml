@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Bangun Datar &amp; Bangun Ruang</string>
-    <string name="title_home">Home</string>
+    <string name="title_home">Bangun Datar</string>
     <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_notifications">Bangun Ruang</string>
     <string name="bangun_datar">Bangun Datar</string>
     <string name="bangun_ruang">Bangun Ruang</string>
     <string name="keliling">Keliling:</string>
@@ -18,12 +18,14 @@
     <string name="rumus_segitiga">Keliling = a + b + c \nLuas = a x t / 2</string>
     <string name="rumus_belah_ketupat">Keliling = 4 x s \nLuas = d1 x d2 / 2</string>
     <string name="rumus_lingkaran">Keliling = 2 x π x r \nLuas =  π x r² </string>
-    <string name="ket_persegi">Persegi adalah suatu segi empat dengan semua sisinya sama panjang dan semua sudut-sudutnya sama besar dan siku-siku</string>
-    <string name="ket_persegipanjang">Persegi panjang adalah bangun datar yang memiliki 2 sisi panjang dan 2 sisi lebar yang dimana sudut-sudutnya berbentuk siku-siku</string>
+    <string name="ket_persegi">Persegi adalah suatu segi empat dengan semua sisinya sama panjang dan semua sudut-sudutnya sama besar dan siku-siku.</string>
+    <string name="ket_persegipanjang">Persegi panjang adalah bangun datar yang memiliki 2 sisi panjang dan 2 sisi lebar yang dimana sudut-sudutnya berbentuk siku-siku.</string>
     <string name="ket_jajargenjang">Jajargenjang adalah bangun datar yang memiliki sepasang sisi yang sejajar namun tidak memiliki sudut siku-siku.</string>
-    <string name="ket_trapesium">Trapesium adalah bangun datar yang memiliki bentuk bervariasi. Pada gambar di atas, trapesium tersebut merupakan <b>trapesium sama kaki</b>, dimana trapesium tersebut memiliki 2 sisi yang sejajar</string>
-    <string name="ket_layang_layang">Layang-layang adalah bangun datar yang berupa segiempat, yang mempunyai 2 pasang sisi yang berdekatan sama panjang dan kedua diagonal berpotongan tegak lurus</string>
+    <string name="ket_trapesium">Trapesium adalah bangun datar yang memiliki bentuk bervariasi. Pada gambar di atas, trapesium tersebut merupakan <b>trapesium sama kaki</b>, dimana trapesium tersebut memiliki 2 sisi yang sejajar.</string>
+    <string name="ket_layang_layang">Layang-layang adalah bangun datar yang berupa segiempat, yang mempunyai 2 pasang sisi yang berdekatan sama panjang dan kedua diagonal berpotongan tegak lurus.</string>
     <string name="ket_segitiga">Segitiga yaitu sebuah bangun datar yang dibatasi oleh 3 buah sisi dan mempunyai 3 buah titik sudut.</string>
+    <string name="ket_belah_ketupat">bangun datar yang berupa segiempat, keempat sisinya sama panjang dan kedua diagonalnya berpotongan tegak lurus.</string>
+    <string name="ket_lingkaran">yaitu bangun datar yang terbentuk dari himpunan semua titik persekitaran yang mengelilingi suatu titik asal dengan jarak yang sama.</string>
 <!--    Bangun Ruang-->
     <string name="rumus_balok">Luas = 2 x (P x L + P x T + L x T) \nVolume = P x L x T</string>
     <string name="rumus_kubus">Luas = 6 x s² \nVolume = S³</string>
@@ -32,4 +34,11 @@
     <string name="rumus_kerucut">Luas = Luas Alas + Luas Selimut \nAtau = π x r² + π x r x s \nVolume = Luas Alas x Tinggi / 3 \nAtau = π x r² x t / 3</string>
     <string name="rumus_limas">Luas = Luas Alas + Luas Jumlah Segitiga \nAtau = s² + (2 x s x (√((s/2)² + (t)²) \nVolume = s² x t / 3</string>
     <string name="rumus_bola">Luas = 4 x π x r² \nVolume = 4/3 x π x r³</string>
+    <string name="ket_balok">Balok adalah bangun ruang yang mempunyai 3 dimensi yang dibentuk oleh 6 buah persegi panjang yang semuanya saling tegak lurus.</string>
+    <string name="ket_kubus">Kubus adalah salah satu bangun ruang yang mempunyai panjang rusuk yang sama atau bangun yang mempunyai enam buah sisi yang sama dan juga sebangun.</string>
+    <string name="ket_tabung">Tabung adalah bangun ruang yang dibatasi sisi lengkung dengan menggunakan dua buah lingkaran dan merupakan bangun ruang tiga dimensi yang memiliki tutup serta alas yang memiliki bentuk lingkaran dengan ukuran yang sama, sementara pada bagain selimutnya mempunyai bentuk persegi panjang.</string>
+    <string name="ket_prisma">Prisma adalah bangun ruang tiga dimensi yang mempunyai alas serta atap dengan bentuk segitiga yang memiliki ukuran sama.</string>
+    <string name="ket_kerucut">Kerucut adalah bangun ruang yang memiliki bentuk lingkaran dengan selimut yang mempunyai irisan dari lingkaran.</string>
+    <string name="ket_limas">Limas adalah bangun ruang yang memiliki alas segi dengan sisi-sisi tegak yang memiliki bentuk segitiga dengan satu sisi, dua rusuk dan satu titik sudut. Gambar limas di atas merupakan limas dengan alas persegi</string>
+    <string name="ket_bola">Bola adalah bangun ruang tiga dimensi yang dibentuk oleh tak hingga lingkaran berjari-jari sama panjang dan berpusat pada satu titik yang sama.</string>
 </resources>

@@ -204,7 +204,7 @@ public class DetailViewModel extends ViewModel {
         bangunRuang.bola(new BangunRuang.BangunRuangOneInputCallback() {
             @Override
             public double volume(double a) {
-                return 4/3 * Math.PI * Math.pow(a,3);
+                return (4 * Math.PI * Math.pow(a,3))/3;
             }
 
             @Override
