@@ -403,4 +403,10 @@ public class DetailBangunActivity extends AppCompatActivity {
         llKeliling.setVisibility(View.VISIBLE);
         llLuas.setVisibility(View.VISIBLE);
     }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.i("DetailBangun", "onDestroy: ");
+    }
 }

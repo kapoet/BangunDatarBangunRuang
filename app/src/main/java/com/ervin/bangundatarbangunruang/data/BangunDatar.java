@@ -49,6 +49,8 @@ public class BangunDatar {
         luas = bangunDatarThreeInputCallback.luas(a, t, 0);
     }
 
+    //git add
+
     public void lingkaran(BangunDatarOneInputCallback bangunDatarOneInputCallback, double r) {
         keliling = bangunDatarOneInputCallback.keliling(r);
         luas = bangunDatarOneInputCallback.luas(r);

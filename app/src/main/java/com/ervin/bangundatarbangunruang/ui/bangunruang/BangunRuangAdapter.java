@@ -63,10 +63,10 @@ public class BangunRuangAdapter extends RecyclerView.Adapter<BangunRuangAdapter.
 
         TextView tvBangunName;
         ImageView ivBangunPic;
-        public ViewHolder(@NonNull View itemView) {
-            super(itemView);
-            tvBangunName = itemView.findViewById(R.id.tv_bangun_Item);
-            ivBangunPic = itemView.findViewById(R.id.iv_bangun_item);
+        public ViewHolder(@NonNull View view) {
+            super(view);
+            tvBangunName = view.findViewById(R.id.tv_bangun_Item);
+            ivBangunPic = view.findViewById(R.id.iv_bangun_item);
         }
     }
 }
